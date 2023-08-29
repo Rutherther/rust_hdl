@@ -11,11 +11,11 @@
 #[macro_use]
 pub mod ast;
 #[macro_use]
-mod analysis;
-mod config;
-mod data;
-mod project;
-mod syntax;
+pub mod analysis;
+pub mod config;
+pub mod data;
+pub mod project;
+pub mod syntax;
 
 pub use crate::config::Config;
 pub use crate::data::{

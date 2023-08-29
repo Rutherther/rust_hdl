@@ -5,7 +5,7 @@
 // Copyright (c) 2019, Olof Kraigher olof.kraigher@gmail.com
 
 #[macro_use]
-mod tokens;
+pub mod tokens;
 
 mod alias_declaration;
 mod attributes;
